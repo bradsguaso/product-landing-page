@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <style>
+
+        @media screen and (max-width: 600px) {
+            body {
+                background-color: tan;
+            }
+        }
+
+
+        body {
+            background-color: #fcf4e2;
+
+        }
+
+        nav {
+            background-color: #fcf4e2;
+            float: right;
+        }
+
+        div {
+            text-align: center;
+        }
+
+        nav a {
+            text-align: center;
+            display: inline;
+            text-decoration: none;
+        }
+
+        form {
+            max-width: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .form input {
+            width: 90%;
+            height: 30px;
+
+        }
+
+        .element {
+
+            margin: 1rem auto;
+
+        }
+
+        article {
+            max-width: 60%;
+            margin: 1rem auto;
+        }
+
+        iframe {
+            margin-top: 20px;
+        }
+
+        .flex-container {
+            display: flex;
+            max-width: 80%;
+            justify-content: space-around;
+        }
+
+        .flex-component {
+            width: 30%;
+            border: 1px solid #000000;
+
+
+        }
+
+    </style>
+</head>
+<body>
+<header id="header">
+    <img src="https://www.w3schools.com/images/w3schools_green.jpg" id="header-img">
+    <nav id="nav-bar">
+
+        <a href="#header" class="nav-link">
+            Electronics
+        </a>
+        <a href="#header" class="nav-link">
+            House
+        </a>
+        <a href="#header" class="nav-link">
+            Video
+        </a>
+    </nav>
+</header>
+<main id="main" role="main">
+
+    <h1 align="center">Bla bla bla</h1>
+    <form action="https://www.freecodecamp.com/email-submit" id="form" class="element">
+        <input id="email" type="email" placeholder="Email here" name="email">
+        <input type="submit" value="Send" name="button" id="submit">
+    </form>
+
+    <article>
+        <h2>Header</h2>
+        <p>Bla bla bla</p>
+    </article>
+    <article>
+        <h2>Header</h2>
+        <p>Bla bla bla</p>
+    </article>
+    <article>
+        <h2>Header</h2>
+        <p>Bla bla bla</p>
+    </article>
+
+    <!-- <iframe id="video" class="element" src="" align="center"></iframe> -->
+
+    <section class="flex-container" style="margin: 0 auto;">
+        <div class="flex-component" style="background-color: aliceblue">
+            <div style="background-color: #CCCCCC">Header</div>
+            <p>Bla bla bla</p>
+            <button type="submit" style="background-color: antiquewhite">Select</button>
+        </div>
+        <div class="flex-component" style="background-color: aliceblue">
+            <div style="background-color: #CCCCCC">Header</div>
+            <p>Bla bla bla</p>
+            <button type="submit" style="background-color: antiquewhite">Select</button>
+        </div>
+        <div class="flex-component" style="background-color: aliceblue">
+            <div style="background-color: #CCCCCC">Header</div>
+            <p>Bla bla bla</p>
+            <button type="submit" style="background-color: antiquewhite">Select</button>
+        </div>
+    </section>
+
+</main>
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
+</script>
+</body>
+</html>
